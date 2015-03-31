@@ -1,5 +1,7 @@
 # V2EX MATERIAL THEME
 
+	开发中，目前无法兼容firefox
+
 ## 代码
 
 	@import url("//dn-startplay.qbox.me/v2ex-material-theme/v2ex.min.css");

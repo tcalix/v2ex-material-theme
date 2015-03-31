@@ -20,16 +20,21 @@ module.exports = function(grunt){
 			options: {
 				accessKey: '',//七牛密钥
 				secretKey: '',
-				bucket: 'play',
+				bucket: '',
 				domain: '',//七牛域名
 				resources: {
 					pattern: [
 						'icon/*',
+						'img/*',
+						'font/*',
 						'v2ex.min.css'
 					]
 				},
 				keyGen: function(cwd, file){
-					return file.replace('icon/','v2ex-material-theme/').replace('v2ex.min.css','v2ex-material-theme/v2ex.min.css');
+					return file.replace('icon/','v2ex-material-theme/icon/')
+						.replace('img/','v2ex-material-theme/img/')
+						.replace('font/','v2ex-material-theme/font/')
+						.replace('v2ex.min.css','v2ex-material-theme/v2ex.min.css');
 				},
 				ignoreDup: false
 			},
