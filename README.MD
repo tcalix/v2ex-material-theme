@@ -6,6 +6,8 @@
 
 	@import url("//dn-startplaytest.qbox.me/v2ex-material-theme/v2ex.min.css");
 	
+	//这个地址仅作测试，等完善后会放到//dn-startplay.qbox.me/v2ex-material-theme/v2ex.min.css
+	
 ## 使用方法
 
 进入 www.v2ex.com ，登录后进设置，在自定义CSS处填入代码保存即可。
